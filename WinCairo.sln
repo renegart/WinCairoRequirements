@@ -107,6 +107,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makeconv", "src\icu\source\
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makedata", "src\icu\source\data\makedata.vcxproj", "{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B312A49-12A9-4E07-9E96-453DC2D8FF61} = {2B312A49-12A9-4E07-9E96-453DC2D8FF61}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pkgdata", "src\icu\source\tools\pkgdata\pkgdata.vcxproj", "{4C8454FE-81D3-4CA3-9927-29BA96F03DAC}"
 EndProject
@@ -2217,7 +2220,6 @@ Global
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.Debug|Itanium.ActiveCfg = Debug|Win32
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.Debug|x64.ActiveCfg = Debug|x64
-		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.Debug|x64.Build.0 = Debug|x64
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.DLLDebug|Itanium.ActiveCfg = Debug|x64
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.DLLDebug|Win32.ActiveCfg = Debug|Win32
 		{3A83CC54-99F7-4A59-B7F1-E4AC0FE19BE2}.DLLDebug|Win32.Build.0 = Debug|Win32
@@ -2329,6 +2331,7 @@ Global
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.Release|Win32.ActiveCfg = Release|Win32
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.Release|Win32.Build.0 = Release|Win32
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.Release|x64.ActiveCfg = Release|X64
+		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.Release|x64.Build.0 = Release|X64
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.StaticDebug|Itanium.ActiveCfg = Debug|Win32
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.StaticDebug|Win32.ActiveCfg = Debug|Win32
 		{624BFDEF-D8DB-4D42-8890-0DC59C7B60CE}.StaticDebug|Win32.Build.0 = Debug|Win32
@@ -2386,6 +2389,7 @@ Global
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.Release|Win32.ActiveCfg = Release|Win32
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.Release|Win32.Build.0 = Release|Win32
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.Release|x64.ActiveCfg = Release|X64
+		{6A75249D-B85A-4290-B64E-D4724E81D76F}.Release|x64.Build.0 = Release|X64
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.StaticDebug|Itanium.ActiveCfg = Debug|Win32
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.StaticDebug|Win32.ActiveCfg = Debug|Win32
 		{6A75249D-B85A-4290-B64E-D4724E81D76F}.StaticDebug|Win32.Build.0 = Debug|Win32
